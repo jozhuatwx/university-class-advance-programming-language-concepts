@@ -1,0 +1,3 @@
+ID,FIRSTNAME,LASTNAME,DOB,USERNAME,PASSWORD
+1,john,mellor,1-1-1990,john1990,pass1
+2,alan,tan,12-6-2000,alan2000,pass2
