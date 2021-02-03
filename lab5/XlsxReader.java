@@ -1,4 +1,4 @@
-package lab6;
+package lab5;
 
 import java.io.FileInputStream;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package lab6;
+package lab5;
 
 public class ProjectWork {
   // properties
