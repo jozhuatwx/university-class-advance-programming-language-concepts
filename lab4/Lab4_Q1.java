@@ -1,9 +1,9 @@
-package lab5;
+package lab4;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class Lab5_Q1 {
+public class Lab4_Q1 {
   // normal method
   double mul(double a, double b) {
     return a * b;
@@ -19,15 +19,15 @@ public class Lab5_Q1 {
   }
 
   public static void main(String[] args) {
-    Lab5_Q1 lab5 = new Lab5_Q1();
+    Lab4_Q1 lab4 = new Lab4_Q1();
 
     BiFunction<Double, Double, Double> mul = (a, b) -> a * b;
-    System.out.println(lab5.m(mul, 10, 2)); // 20
-    System.out.println(lab5.m((a, b) -> a * b, 10, 2)); // 20
+    System.out.println(lab4.m(mul, 10, 2)); // 20
+    System.out.println(lab4.m((a, b) -> a * b, 10, 2)); // 20
 
-    System.out.println(lab5.m2(mul, 10).apply(2.0)); // 
+    System.out.println(lab4.m2(mul, 10).apply(2.0)); // 
     
-    Function<Double, Double> partial_complete_fn = lab5.m2(mul, 10);
+    Function<Double, Double> partial_complete_fn = lab4.m2(mul, 10);
     double b = 2;
     double result = partial_complete_fn.apply(b);
     System.out.println(result);

@@ -1,9 +1,9 @@
-package lab5;
+package lab4;
 
 import java.util.Arrays;
 import java.util.function.BiFunction;
 
-public class Lab5 {
+public class Lab4 {
   // Q1
   static BiFunction<Double, Double, Double> mul = (a, b) -> a * b;
   public static void q1() {
